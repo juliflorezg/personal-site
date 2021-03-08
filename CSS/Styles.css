@@ -1,0 +1,157 @@
+/**********************TAG SELECTORS***************************/
+a{
+  color: #16cc90;
+  margin:0 2% 2% 2%;
+  text-decoration: none;
+}
+a:hover{
+  color: #6bffea;
+}
+
+body{
+  font-family: 'Roboto Condensed', sans-serif;
+  margin:0;
+  text-align: center;
+  color: #40514e;
+
+}
+
+
+
+h1{
+  margin: 40px auto 0px auto;
+  font-family: 'Yellowtail', cursive;
+  font-size: 6rem;
+  color: #00917c;
+
+
+}
+
+h2{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 2.5rem;
+  color: #00917c;
+  padding-bottom: 10px;
+}
+
+h3{
+  color: #11999E;
+  line-height: 3;
+
+}
+
+hr{
+  border-style:  dotted none none;
+  border-width:6px;
+  width:10%;
+  color: #a7c5eb;
+
+}
+
+p{
+  line-height: 2;
+}
+/**********************CLASS SELECTORS***************************/
+
+.top_container{
+  padding-top:10%;
+  position: relative;
+  background-color: #ccf2f4;
+  width: 100%;
+  color: #66bfbf;
+
+
+}
+.middle-container{
+margin: 50px 0 100px 0;
+
+}
+.bottom-container{
+  background-color: #00917c;
+
+  padding: 50px 0 25px 0 ;
+}
+.copyright-message{
+  font-size: 0.8rem;
+  color: #EAF6F6;
+}
+
+.design{
+  width: 20%;
+  float: right;
+  margin-left: 1.5rem;
+}
+
+
+
+
+.sub1{
+  font-weight: normal;
+}
+
+.top-cloud{
+    position: absolute;
+    top: 10%;
+    right: 20%  ;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 20%;
+  bottom: 60%;
+
+}
+
+.logos{
+  width: 45%;
+  float: left;
+  margin-right: 1rem;
+}
+
+.profile{
+  width:50%;
+  margin: 50px auto 50px auto;
+}
+.profile-picture{
+  width: 30%;
+  height: 30%;
+
+
+}
+
+.skill-row{
+  margin: 75px auto 75px auto;
+  width: 50%;
+  text-align: left;
+
+}
+
+.btn {
+	box-shadow: 0px 1px 0px 0px #f0f7fa;
+	background:linear-gradient(to bottom, #34e5eb 5%, #00a677 100%);
+	background-color:#34e5eb;
+	border-radius:6px;
+	border:1px solid #057fd0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:'Roboto Condensed', sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #5b6178;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #00a677 5%, #34e5eb 100%);
+	background-color:#00a677;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.contact-message{
+  width:35%;
+  margin: 20px auto 60px;
+}
